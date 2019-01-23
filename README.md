@@ -5,11 +5,11 @@
 2. Unzips the files
 3. Loads the activity labels from the file "UCI HAR Dataset/activity_labels.txt"
 4. Loads the features from the file "UCI HAR Dataset/features.txt" and selects the column numbers which are either a mean or a standard deviation. 
-5. Load and merges the training dataset from the files. 
+5. Loads and merges the training dataset from the files. 
     * "UCI HAR Dataset/train/X_train.txt" - only those columns which are std deviations and means (uses the filters from step 4). 
     * "UCI HAR Dataset/train/Y_train.txt".   
     * "UCI HAR Dataset/train/subject_train.txt". 
-6. Load and merges the Test dataset from the files. 
+6. Loads and merges the test dataset from the files. 
     * "UCI HAR Dataset/test/X_test.txt" - only those columns which are std deviations and means (uses the filters from step 4). 
     * "UCI HAR Dataset/test/Y_test.txt". 
     * "UCI HAR Dataset/test/subject_test.txt". 
