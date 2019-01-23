@@ -17,3 +17,8 @@ RunAnalysis.R - This R script does the following:
 8. Factorizes the activity and subject columns in the final data set
 9. Extracts the mean of each column after grouping by activity and subject 
 10. Writes the dataset from steps 9 into an external file. 
+
+
+Codebook.md - THis is a codebook for the tidydata.txt
+
+tidydata.txt
